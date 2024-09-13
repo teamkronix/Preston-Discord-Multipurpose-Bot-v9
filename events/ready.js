@@ -4,7 +4,7 @@ const client = require("../index"),
   chalk = require("chalk");
 
 function logAscii(bot, mode) {
-  const x = `\n{!} :: Logged in as ${bot}\n{!} :: Leaked by Venom\n\n`;
+  const x = `\n{!} :: Logged in as ${bot}\n{!} :: Leaked by Venom & snoww.\n\n`;
   console.log(`${x}`);
 }
 module.exports = async (client) => {
@@ -12,7 +12,7 @@ module.exports = async (client) => {
     client.user.setPresence({
       activities: [
         {
-          name: `.help - Venom`,
+          name: `.help - snoww & Venom`,
           type: `LISTENING`,
         },
       ],
